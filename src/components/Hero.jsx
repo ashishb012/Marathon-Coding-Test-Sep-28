@@ -4,7 +4,7 @@ import chair1 from '../assets/chair1.jpg'
 function Hero () {
   return (
     <div>
-      <section className="hero">
+      <section className="hero" id="hero">
       <div className="hero-text">
         <h1>
           <span className="light-grey-text">The Most </span> <br />

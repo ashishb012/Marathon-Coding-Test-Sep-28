@@ -3,7 +3,7 @@ import image5 from '../assets/chair5.jpg'
 
 function WhyChooseUs () {
   return (
-    <section className="features">
+    <section className="features" id="why-choose-us">
       <div className="features-image">
       <img src={image5} alt="image5" className="rounded-full" />
     </div>

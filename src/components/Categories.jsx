@@ -11,8 +11,11 @@ function Categories () {
   ];
 
   return (
-    <div className="categories">
-      <h2>Shop Popular Categories</h2>
+    <div className="categories" id="categories">
+      <h2 className="categories-title">
+        <span className="light-grey-text">Shop Popular </span> <br />
+        <span className="dark-grey-text"> Categories</span>
+      </h2>
       <div className="category-container">
         {categories.map((category, index) => (
           <div className="category-card" key={index}>

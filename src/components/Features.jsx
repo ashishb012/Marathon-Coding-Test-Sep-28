@@ -3,7 +3,7 @@ import image5 from '../assets/chair5.jpg'
 
 function Features () {
   return (
-    <section className="features">
+    <section className="features" id="features">
       
     <div className="features-content">
       <h1 className="features-title">
