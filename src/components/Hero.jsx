@@ -1,4 +1,5 @@
 import React from 'react'
+import chair1 from '../assets/chair1.jpg'
 
 function Hero () {
   return (
@@ -17,7 +18,7 @@ function Hero () {
         </div>
       </div>
       <div className="hero-image">
-        <img src="path-to-chair-image" alt="chair" />
+        <img src={chair1} alt="chair" />
       </div>
     </section>
     </div>

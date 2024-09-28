@@ -3,6 +3,7 @@ import './App.css'
 
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
+import Stats from './components/Stats'
 import Features from './components/Features'
 import WhyChooseUs from './components/WhyChooseUs'
 import Categories from './components/Categories'
@@ -14,9 +15,10 @@ function App() {
     <>
       <NavBar />
       <Hero />
-      <Features />
-      <WhyChooseUs />
+      <Stats />
       <Categories />
+      <WhyChooseUs />
+      <Features />
       <Footer />
     </>
   )
